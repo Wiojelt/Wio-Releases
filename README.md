@@ -1,1 +1,1 @@
-# Wio Wio apk işte.
+# Wio apk işte.
