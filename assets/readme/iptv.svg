@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" role="img" aria-label="Temsili kişisel IPTV ekranı">
+<rect width="960" height="390" rx="28" fill="#141218"/>
+<text x="32" y="59" font-family="sans-serif" font-size="30" font-weight="bold" fill="#f8eef3">Kişisel IPTV</text>
+<rect x="810" y="25" width="124" height="44" rx="20" fill="#ffc0cf"/>
+<text x="872" y="53" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#401d2a">Yenile</text>
+<rect x="25" y="92" width="207" height="269" rx="18" fill="#211e26"/>
+<text x="45" y="126" font-family="sans-serif" font-size="17" font-weight="bold" fill="#f8eef3">Kategoriler</text>
+<g font-family="sans-serif" font-size="16" fill="#f8eef3">
+<rect x="38" y="142" width="180" height="46" rx="12" fill="#6d4b59"/><text x="54" y="171">Tüm kanallar</text>
+<rect x="38" y="199" width="180" height="46" rx="12" fill="#343039"/><text x="54" y="228">Haber</text>
+<rect x="38" y="256" width="180" height="46" rx="12" fill="#343039"/><text x="54" y="285">Spor</text>
+</g>
+<rect x="247" y="92" width="340" height="269" rx="18" fill="#211e26"/>
+<text x="268" y="126" font-family="sans-serif" font-size="17" font-weight="bold" fill="#f8eef3">Kanallar</text>
+<rect x="263" y="144" width="308" height="65" rx="14" fill="#51404d"/>
+<circle cx="297" cy="176" r="21" fill="#f6d59c"/><text x="297" y="182" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#402d14">TV</text>
+<text x="334" y="172" font-family="sans-serif" font-size="16" fill="#fff">Örnek Kanal</text>
+<text x="334" y="194" font-family="sans-serif" font-size="12" fill="#d5c9d2">Şimdi: Örnek program</text>
+<rect x="263" y="220" width="308" height="58" rx="14" fill="#343039"/>
+<rect x="263" y="289" width="308" height="58" rx="14" fill="#343039"/>
+<rect x="602" y="92" width="333" height="269" rx="18" fill="#27242e"/>
+<rect x="618" y="108" width="301" height="154" rx="14" fill="#34313b"/>
+<circle cx="769" cy="185" r="28" fill="#ffc0cf"/><text x="769" y="195" text-anchor="middle" font-family="sans-serif" font-size="29" fill="#401d2a">▶</text>
+<text x="618" y="296" font-family="sans-serif" font-size="20" font-weight="bold" fill="#f8eef3">Örnek Kanal</text>
+<text x="618" y="324" font-family="sans-serif" font-size="13" fill="#c9c0c7">Program bilgisi ve önizleme</text>
+<text x="919" y="371" text-anchor="end" font-family="sans-serif" font-size="11" fill="#a99ba5">TEMSİLİ GÖRSEL</text>
+</svg>
