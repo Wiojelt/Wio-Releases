@@ -1,0 +1,23 @@
+name: Update latest APK alias
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  alias:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download the release APK and upload the stable alias
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        run: |
+          set -euo pipefail
+          asset="$(gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json assets --jq '[.assets[].name | select(endswith(".apk")) | select(contains("-release") | not)] | if length == 1 then .[0] else error("Expected exactly one APK without -release in its name") end')"
+          gh release download "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --pattern "$asset" --dir "$RUNNER_TEMP"
+          cp "$RUNNER_TEMP/$asset" "$RUNNER_TEMP/WioTV-latest.apk"
+          gh release upload "$RELEASE_TAG" "$RUNNER_TEMP/WioTV-latest.apk" --repo "$GITHUB_REPOSITORY" --clobber

@@ -26,7 +26,7 @@ VIP şu anda geliştirme aşamasındadır. Mevcut farklardan biri oynatıcı fil
 
 ## İndir ve geri bildirim gönder
 
-[En güncel herkese açık APK ve SHA-256 dosyası](https://github.com/Wiojelt/Wio-Releases/releases/latest)
+[Doğrudan en güncel APK'yı indir](https://github.com/Wiojelt/Wio-Releases/releases/latest/download/WioTV-latest.apk) · [Sürüm notları ve SHA-256 dosyaları](https://github.com/Wiojelt/Wio-Releases/releases/latest)
 
 Kurulum için APK'yı indirin. SHA-256 dosyası, indirdiğiniz dosyanın bütünlüğünü kontrol etmenize yarar. Güncellemeler uygulamanın içinden duyurulur. Android TV/box kumandasında çalışmayan bir yol bulursanız hangi ekranda hangi yön tuşuna bastığınızı da yazın.
 
@@ -41,7 +41,7 @@ Kendi M3U/Xtream listenizle kişisel IPTV izleyebilir; film, dizi, anime, çocuk
 
 Beta sürecinde kumanda gezinmesi ve kaynak uyumluluğu geliştiriliyor. Başarılı her davet 3 gün VIP kazandırır; beta kampanyasında davet sınırı kaldırılmıştır. Bilinen sorun: Shorts bazı dikey cihazlarda yataya dönebilir.
 
-İndirme: https://github.com/Wiojelt/Wio-Releases/releases/latest
+İndirme: https://github.com/Wiojelt/Wio-Releases/releases/latest/download/WioTV-latest.apk
 
 Hata bildirimi: Cihaz modeli + Wio sürümü + izlediğiniz yol; mümkünse uygulamadaki “Log gönder” çıktısı. IPTV kullanıcı adı ve parolasını paylaşmayın.
 
